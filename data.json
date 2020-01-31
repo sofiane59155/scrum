@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Frank FABI",
+      "class": "ffabi@gmail.com",
+      "address": "103 Rue de Lille",
+      "age": "21"
+    },
+    {
+      "id": 2,
+      "name": "Benoit LEPAIRE",
+      "age": "23",
+      "address": "103 Rue de Lille"
+    },
+    {
+      "id": 3,
+      "name": "Marilyn PADRE",
+      "age": "14",
+      "address": "78 Mons"
+    },
+    {
+      "id": 4,
+      "name": "Maxime JALLOIT",
+      "age": "17",
+      "address": "14 Lomme"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Création Etudiant</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+ 
+  <ion-item>
+    <ion-input [(ngModel)]="data.name" placeholder="Saisissez votre nom" required ></ion-input>
+  </ion-item>
+ 
+  <ion-item>
+    <ion-input [(ngModel)]="data.age" placeholder="Votre Age" required type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input [(ngModel)]="data.address" placeholder="Saisissez votre adresse" required ></ion-input>
+  </ion-item>
+ 
+  <ion-item>
+    <ion-button (click)="submitForm()">Ajouter
+    </ion-button>
+    <ion-button [routerLink]="[ '/list']" color="danger" size="small">
+      Annuler
+    </ion-button>
+  </ion-item>
+ 
+</ion-content> 

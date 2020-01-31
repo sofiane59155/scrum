@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar  color="tertiary">
+    <ion-title>Modification Etudiant</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+ 
+  <ion-item>
+    <ion-input [(ngModel)]="data.name" placeholder="Saisissez votre nom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="data.age" placeholder="Votre Age" type="number"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="data.address" placeholder="Saisissez votre adresse"></ion-input>
+  </ion-item>
+  <ion-button (click)="update()" color="success" size="small">
+    Enregistrer
+  </ion-button>
+  <ion-button [routerLink]="[ '/list']" color="danger" size="small">
+    Annuler
+  </ion-button>
+</ion-content>
